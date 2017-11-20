@@ -1,0 +1,43 @@
+.section4 .box ul{
+    width:940px;
+    padding:0;
+    margin:0 auto;
+}
+.section4 .box ul li {
+    width:300px;
+    float: left;
+    margin-left:20px;
+    cursor: pointer;
+    height:400px;
+    overflow: hidden;
+    position: relative;
+    border:5px solid #333;
+    border-radius:10px;
+}
+.section4 .box ul li:nth-child(1){
+    margin:0;
+}
+.section4 .box .info {
+    width:300px;
+    background: rgba(0,0,0,.8);
+    height:400px;
+    position: absolute;
+    right:400px;
+    transition:1s;
+    top:0;
+    border-radius:10px;
+}
+.section4 .box .info p{
+    padding: 1.2em 1.4em;
+    margin: 2px 0 0;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.4em;
+    border-top: 10px solid #555;
+}
+.section4 .box ul li:hover .info{
+    right:0;
+}
+.section4 .box .info p:nth-child(1){
+    border:0;
+}
